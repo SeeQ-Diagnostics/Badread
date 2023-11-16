@@ -27,7 +27,7 @@ ALIGNMENT_SIZE = 1000
 
 # I don't let users set a very small minimum mean read length (e.g. 2) or very low minimum read
 # identity (e.g. 50%) as that might break some things. These settings control how low they can go.
-MIN_MEAN_READ_LENGTH = 100
+MIN_MEAN_READ_LENGTH = 50
 MIN_MEAN_READ_IDENTITY = 50
 MIN_MEAN_READ_QSCORE = 5
 
